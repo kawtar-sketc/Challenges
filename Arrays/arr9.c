@@ -25,7 +25,8 @@ for (i=0;i<taille;i++){
    for (i=0;i<taille;i++){
     if (tab[i]==vR){
         tab[i]=nV;
-    }
+        break;
+    } 
 
    }
    for (i=0;i<taille;i++){

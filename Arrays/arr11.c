@@ -11,7 +11,6 @@ int main() {
    int  tab[taille];
 
    for (i=0;i<taille;i++){
-    printf("entrer tab[%d] ",i+1);
     scanf("%d",&tab[i]);
     }  
     

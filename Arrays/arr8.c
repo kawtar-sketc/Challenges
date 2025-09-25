@@ -19,7 +19,9 @@ int main() {
    for (i=0;i<taille;i++){
     if (tab[i]==n){
         printf("le nombre %d est trouve dans tab[%d]",n,i+1);
+
 trouve =1;
+break;
     }
 
    }
